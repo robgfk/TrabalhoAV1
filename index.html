@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Relojoaria Capital</title>
+        <link rel="stylesheet" href="style.css">
+        <img id=imagem src="image.jpg">
+        <style>
+            body{
+
+                background-color: rgb(73, 115, 207);
+                color: rgb(3, 10, 26);
+            }
+        </style>
+    </head>
+<html>
+    <body>
+        <h1>Relógios e acessórios</h1>
+        <p>Localizada no centro da cidade de Florianópolis - SC a <strong>Relojoaria Capital</strong> traz para o mercado o que há  
+        de mais luxuoso em relógios. </p>
+        <p> Fundada em 2002 já é destaque na cidade e conquista novos clientes a cada dia.</p>
+        <p id="missao"><em> Nossa missão é: <strong> "Proporcionar estilo e qualidade na vida aos clientes"</strong>.</em></p>
+        <p >O atendimento possui padrão de excelência garantindo a satisfação dos nossos clientes.</p>
+    <p>
+        <h1>Pulseiras, correntes e braceletes em diversos materiais</h1>
+            <ul>
+			    <li>Ouro</li>
+			    <li>Prata</li>
+			    <li>Bijoteria</li>
+                <li>Pedraria</li>
+            </ul>
+    </p>
+    <p>
+        <h1>Aceitamos os cartões a seguir</h1>
+        <table border="2px">
+            <tr>
+                <td>VISA</td>
+                <td>MASTER</td>
+            </tr>
+            <tr>
+                <td>ELO</td>
+                <td>AMEX</td>
+            </tr>
+        </table>
+    </p>
+    <p>
+        <h1> Acesse sua conta</h1>
+        <form action="processa.php" method="post"></form> <label>Login</label>
+	    <input type="text" name="text1" placeholder="Digite seu login">
+	    <br>
+	    <label>Password<label>
+	    <input type="Password" name="123">
+	    <br>
+	    <input type="submit" name="Enviar" name="submit">
+        <input type="hidden" name="informacao_oculta" value="mensagem oculta">
+	    <br>
+    </p>
+    <p>
+        <h1>Escolha a forma de pagamento</h1>
+	    <label>Selecione</label>
+	    <select name="Selecao">
+		    <option value="1">Cartão de crédito</option>
+		    <option value="2">Boleto Bancário</option>
+            <option value="3">Pix</option>
+	    </select>
+    </p>
+    <br>
+        <h1>Garanta desconto extra</h1>
+        <label>Descontos</label>
+        <input type="radio" name="/radio1" value="1">Boleto 5%  <br>
+        <input type="radio" name="/radio1" value="2">Pix 10% 
+    </p>
+    <br>
+        <h1>Calcule o custo e prazo de entrega</h1>
+	    <label>Selecione</label>
+	    <br>
+	    <input type="Checkbox" name="CK1" value="1">Frete normal<br>
+	    <input type="Checkbox" name="CK1" value="1">Frete expresso<br>
+	    <input type="Checkbox" name="CK1" value="1">Retirada na loja<br>
+	    <input type="submit" name="Enviar" name="submit">
+    </body>
+</html>
